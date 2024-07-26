@@ -241,15 +241,18 @@ aside {
 video {
     margin-top: 30px;
     margin-right: 30px;
-    max-height: 750px;
+    height: 750px;
+    width: 1250px;
 }
 
 .title > .video-title {
     font-size: 40px;
+    margin-left: 60px;
     margin-right: 220px;
 }
 
 .title > .video-title-author {
     font-size: 30px;
+    margin-left: 60px;
     margin-right: 220px;
 }
