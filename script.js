@@ -4,6 +4,7 @@ const videoBtn = document.getElementById('videoBtn');
 const shopBtn = document.getElementById('shopBtn');
 const fbBtn = document.getElementById('fbProblem');
 const ytBtn = document.getElementById('ytProblem');
+const contactBtn = document.getElementById('contact');
 
 function navBtn() {
     logo.addEventListener('click', function() {
@@ -23,6 +24,9 @@ function navBtn() {
     })
     ytBtn.addEventListener('click', function() {
         window.open('https://www.youtube.com/@Kubson_Gitara-pp7jm', '_blank');
+    })
+    contactBtn.addEventListener('click', function() {
+        window.location.href = 'kontakt.html'
     })
 }
 
